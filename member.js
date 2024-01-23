@@ -6,6 +6,7 @@ function skillsMember() {
       member: '=',
       skills: '='
     },
+    //test
     controller: function($scope) {
       $scope.getSkill = function(id) {
         return $scope.skills.filter(function(skill) {
